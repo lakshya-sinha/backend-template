@@ -1,0 +1,21 @@
+{
+  "name": "project-management-lakshya",
+  "version": "1.0.0",
+  "description": "a project management applications for beginners",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "project",
+    "project",
+    "management",
+    "mangement"
+  ],
+  "author": "lakshya",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.6.2"
+  }
+}
