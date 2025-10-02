@@ -1,6 +1,6 @@
 import express, { urlencoded } from "express";
 import cors from "cors";
-
+import cookieParser from "cookie-parser";
 
 
 
@@ -18,6 +18,8 @@ app.use(cors({
   methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS",],
   allowedHeaders: ["Authorization", "Content-Type"]
 }))
+//* Cookie Parser
+app.use(cookieParser())
 
 
 //* import the routes
